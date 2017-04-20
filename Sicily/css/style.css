@@ -1,0 +1,101 @@
+.bgimage {
+    background-image: url(../images/Vista-di-Castiglione.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 400px;
+}
+
+.nav {
+    background-color: darkgreen;
+    width: 100%;
+    position: absolute;
+    margin-left: -16px;
+}
+
+.navbar-brand, .nav > li > a {
+    padding: 10px 20px;
+}
+
+.btn-sm {
+    margin-top: 20px;
+    margin-right: 5px;
+    margin-left: 20px;
+    margin-bottom: 15px;
+    font-weight: bolder;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 2px;
+    border-radius: 8px;
+    
+}
+
+#title {
+    color: #fff;
+    font-family: "Rochester", cursive, serif;
+    font-size: 200px;
+    text-shadow: 4px 4px 8px black;
+}
+
+body {
+    font-family: "Times New Roman", Times, serif;
+}
+
+h1 {
+    text-align: left;
+    font-size: 55px;
+    font-weight: bolder;
+    color: red;
+}
+
+h2 {
+    font-size: 50px;
+    text-shadow: 5px 5px black;
+    letter-spacing: 3px;
+}
+
+.hometextbox {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 27px;
+    color: #fff;
+}
+
+.top-buffer { 
+    margin-top: 25px;
+}
+
+#logo {
+    display: block;
+    margin: 0 auto;
+}
+
+.explore {
+    text-align: center;
+    font-size: 35px;
+    letter-spacing: 2px;
+    color: #fff;
+    margin-top: 20px;
+    
+}
+
+.restaurant {
+    text-align: center;
+}
+
+.bottom-buffer {
+    margin-bottom: 25px;
+}
+.aboutrestaurant {
+    text-align: center;
+    font-size: 30px;
+    line-height: normal;
+}
+
+.contactCenter {
+    display: block;
+    margin: 0 auto;
+}
+
+#footer {
+    height: 100px;
+    text-align: center;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Explore</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+<!-- If you are using google fonts include link below
+    <link href="https://fonts.googleapis.com/css?family=Tangerine" rel="stylesheet"> -->
+    <style>
+        body {
+            background-color: #3399ff;
+        }
+    </style>
+</head>
+    
+<body>
+    <nav class="navbar navbar-default">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-target="#mainNavbar" data-toggle="collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <div class="navbar-collapse collapse" id="mainNavbar">
+            <ul class="nav navbar-nav">
+                <li><a href="index.html" class="btn-sm btn-warning">HOME</a></li>
+                <li><a href="wheretostay.html" class="btn-sm btn-warning">WHERE TO STAY</a></li>
+                <li><a href="wheretoeat.html" class="btn-sm btn-warning">WHERE TO EAT</a></li>
+                <li class="active"><a href="explore.html" class="btn-sm btn-warning">EXPLORE</a></li>
+                <li><a href="contact.html" class="btn-sm btn-warning">CONTACT</a></li>>
+            </ul>
+        
+        </div>
+        
+    </nav>
+<div class="container">
+
+ <p class="explore">There are many cities and towns to explore in Sicily. <br>
+     Click on Marsala, Palermo, and Taormina for more information</p>
+    
+    <img src="images/sicilyIsland.jpg" alt="Sicily Island" usemap="#sicilyIsland"/>
+    
+    <map name="sicilyIsland" id="sicilyIsland">
+        <area shape="rect" coords="229,377,336,431" alt="Marsala" href="http://www.frommers.com/destinations/marsala" target="_blank">
+        <area shape="rect" coords="432,257,536,314" alt="Palermo" href="http://www.frommers.com/destinations/palermo" target="_blank">
+        <area shape="rect" coords="866,337,998,386" alt="Taormina" href="http://www.frommers.com/destinations/taormina" target="_blank"> 
+    </map>
+
+</div>
+      
+
+<!-- Place these two .js files at the END just before closing body so they load last -->
+<!-- If you are using bootstrap you must have jquery.js BEFORE bootstrap.js-->
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/my-jquery.js"></script>
+</body>
+   
+</html>

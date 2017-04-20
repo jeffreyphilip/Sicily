@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sicily</title>
+<!-- If you are using bootstrap include link below -->
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+<!-- If you are using bootstrap your own css must be AFTER bootstrap -->
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Rochester" rel="stylesheet">
+    <style>
+        body {
+            background-color: darkgreen
+        }
+    </style>
+</head>
+    
+<body>
+
+    <header class="bgimage">
+            <nav class="navbar navbar-default">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-target="#mainNavbar" data-toggle="collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <div class="navbar-collapse collapse" id="mainNavbar">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="index.html" class="btn-sm btn-warning">HOME</a></li>
+                <li><a href="wheretostay.html" class="btn-sm btn-warning">WHERE TO STAY</a></li>
+                <li><a href="wheretoeat.html" class="btn-sm btn-warning">WHERE TO EAT</a></li>
+                <li><a href="explore.html" class="btn-sm btn-warning">EXPLORE</a></li>
+                <li><a href="contact.html" class="btn-sm btn-warning">CONTACT</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <div class="container">
+        <h1 id="title">Sicily</h1>
+    </div>
+</header>
+
+<div class="container">  <!-- open container -->
+    <div class="row"> <!-- opens first row -->
+        
+        <div class="col-md-6"> <!-- left column -->
+            <h1>A Tour of Sicily</h1>
+        <p class="hometextbox">Having been a travel writer for many years I have acquired a deep attraction to Sicily, not only for it’s art and history, but it’s people. Having traveled there frequently I am well acquainted with places to stay, places to eat and places to explore. Please join me in visiting this very special area of Italy!
+        Sicily has been conquered, settled, and abandoned by dozens of civilations, from the Phoenicians, Greeks, and Carthaginians in antiquity, to the Arabs, to the Spanish and Bourbons in the Renaissance, and finally (at least nominally), modern Italy. It’s an intricate and violent story that nonetheless left a fascinating legacy. Touring the relics of Sicily’s tumultuous past can sometimes make you feel that you’re visiting several difference countries at once.
+        </p>
+        <img src="images/sicilyLogo.png" id="logo"/>
+        </div> <!-- left column -->
+        
+        <div class="col-md-6"> <!-- right column -->
+            <div class="row top-buffer">
+                <div class="col-md-12">
+                    <img src="images/SicilyMap.jpg" class="img-responsive"/>
+                </div>
+            </div>
+            
+            <div class="row top-buffer">
+                <div class="col-md-12">
+                    <img src="images/FerroDiCavallo-Palermo.jpg" class="img-responsive"/>
+                </div>
+            </div>
+        </div> <!-- right column -->
+        
+    </div> <!-- closes first row -->
+    
+    <div class="row top-buffer"> <!-- opens second row -->
+        <div class="col-md-6">
+            <img src="images/Butera28-Outside.jpg" class="img-responsive"/>
+        </div>
+        <div class="col-md-6">
+           <img src="images/PlacesToExplore.jpg" id="topbuffer" class="img-responsive"/>
+        </div>
+        
+    </div>  <!-- closes second row -->
+</div>  <!-- close container -->
+    
+<footer id=footer>
+    
+</footer>
+    
+      
+
+<!-- Place these two .js files at the END just before closing body so they load last -->
+<!-- If you are using bootstrap you must have jquery.js BEFORE bootstrap.js-->
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/my-jquery.js"></script>
+</body>
+   
+</html>
